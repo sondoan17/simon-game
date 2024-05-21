@@ -3,7 +3,7 @@ body {
   background-color: #011F3F;
 }
 
-#level-title {
+#level-title, #highscore {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
@@ -19,11 +19,15 @@ body {
 
 .btn {
   margin: 25px;
-  display: inline-block;
+  display: inline-flex;
   height: 200px;
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .game-over {
